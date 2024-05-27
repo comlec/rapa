@@ -36,5 +36,8 @@
     <ClCompile Include="ex5.2_scanf_S문자열입력.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ex6_프로젝트.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
