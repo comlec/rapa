@@ -2,6 +2,7 @@
 // 산술연산자 : + - / * %
 int main(void){
     int n1 = 33, n2=10;
+    printf("산술연산 결과입니다\n");
     printf("%d %c %d = %d\n", n1, '/', n2, n1/n2);
     // 형변환 : 묵시적형변환 int i = 3.2
     //          명시적형변환 (double)n1
