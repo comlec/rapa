@@ -2,7 +2,7 @@
 
 int main(void){
     int floor ;
-    printf("¸îÃøÀÇ ÇÇ¶ó¹Ìµå¸¦ ½×À¸½Ã°Ú½À´Ï±î(5~20)?");
+    printf("ëª‡ë‹¨ í”¼ë¼ë¯¸ë“œë¥¼ ìŒ“ì„ê¹Œìš”(5~20)?");
     scanf("%d", &floor);
     for(int i=0 ; i<floor ; i++){
         for(int j=i ; j<floor-1 ; j++){
