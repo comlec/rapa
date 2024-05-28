@@ -1,0 +1,7 @@
+ch1. 환경설정(vs - vs code)
+ch2. 변수(int, long long, double, char, char*)
+ch3. 연산자(산술%, 증간, 삼항, 논리, 비트, 할당)
+       반복문(for, while, do~while)
+ch4. 조건문(if, switch)
+ch5. 함수
+
