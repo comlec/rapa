@@ -14,5 +14,5 @@ void line(int cnt){ // 함수 정의(함수 구현)
     printf("\n");
 }
 void noArg(){
-    print("반환값도 매개변수도 없는 함수\n");
+    printf("반환값도 매개변수도 없는 함수\n");
 }
