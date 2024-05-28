@@ -8,15 +8,15 @@ int main(void){
     switch (temp/10)
     {
     case 9: 
-        printf("A학점"); 
+        printf("A학점"); break;
     case 8:
-        printf("B학점"); 
+        printf("B학점"); break;
     case 7: 
-        printf("C학점"); 
+        printf("C학점"); break;
     case 6:
-        printf("D학점"); 
+        printf("D학점"); break;
     case 5: case 4: case 3: case 2: case 1: case 0:
-        printf("F학점");
+        printf("F학점");break;
     default:
         printf("유효하지 않는 점수입니다");
     }
