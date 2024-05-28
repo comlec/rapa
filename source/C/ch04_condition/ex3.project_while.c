@@ -22,15 +22,15 @@ int main(void){
         }else if(answer<computerNumber){
             // 정답보다 입력한 숫자가 작을 때 : UP ↑
             printf("UP ↑\n\n");
-            min = answer;
+            min = answer+1;
         }else{
             printf("%d는 정답입니다. 축하합니다. %d번만에 성공\n\n", answer, 5-change);
             break;
-        }
+        } // if - 정답비료
         if(change==0){
             // 실패 안내문구 : 모든 기회를 사용했어요. 아쉽게도 실패했습니다.
             printf("5번의 모든 기회를 사용했어요. 아쉽게도 실패했습니다\n\n");
             break;
-        }
-    }
-}
+        } // if - 5번 기회 여부
+    } // while
+}//main

@@ -9,7 +9,7 @@ int main(void){
     int computerNumber = rand() % max + 1; // 1~100까지의 난수 
     printf("정답 : %d\n", computerNumber); // 실습이므로 정답 출력
     for(change=5 ; change>0 ; change--){
-// 숫자입력받기
+        // 숫자입력받기
         printf("%d부터 %d 사이의 숫자를 맞춰 보세요(남은 기회 : %d번)", min, max, change);
         scanf("%d", &answer);
         // 입력한 숫자에 따라 메세지 출력
@@ -26,8 +26,8 @@ int main(void){
         }else{
             printf("%d는 정답입니다. 축하합니다. %d번만에 성공\n\n", answer, 5-change);
             break;
-        }
-    }
+        } // if
+    } // for
     if(change==0){
         // 실패 안내문구 : 모든 기회를 사용했어요. 아쉽게도 실패했습니다.
         printf("5번의 모든 기회를 사용했어요. 아쉽게도 실패했습니다\n\n");
