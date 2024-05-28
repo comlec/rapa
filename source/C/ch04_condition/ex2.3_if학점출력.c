@@ -1,20 +1,20 @@
 #include <stdio.h>
-// scoreë¥¼ ìž…ë ¥ë°›ì•„ í•™ì  ì¶œë ¥
+// score¸¦ ÀÔ·Â¹Þ¾Æ ÇÐÁ¡ Ãâ·Â
 int main(void){
     int score;
-    printf("ì ìˆ˜ëŠ” >> ");
+    printf("Á¡¼ö´Â >> ");
     scanf("%d", &score);
     if( 90<=score && score<= 100 ){
-        printf("Aí•™ì ");
+        printf("AÇÐÁ¡");
     }else if(80<=score && score<90){
-        printf("Bí•™ì ");
+        printf("BÇÐÁ¡");
     }else if(70<=score && score<80){
-        printf("Cí•™ì ");
+        printf("CÇÐÁ¡");
     }else if(60<=score && score<70){
-        printf("Dí•™ì ");
+        printf("DÇÐÁ¡");
     }else if(0<=score && score<60){
-        printf("Fí•™ì ");
+        printf("FÇÐÁ¡");
     }else{
-        printf("ìœ íš¨í•˜ì§€ ì•ŠëŠ” ì ìˆ˜ìž…ë‹ˆë‹¤");
+        printf("À¯È¿ÇÏÁö ¾Ê´Â Á¡¼öÀÔ´Ï´Ù");
     }
 }
