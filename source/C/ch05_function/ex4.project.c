@@ -24,7 +24,7 @@ int main(void){
     }
 }
 int getRandomNumber(int level){
-    //1리벨은 1~4/2레벨은 5~8/3레벨은 9~12
+    //1레벨은 1~4/2레벨은 5~8/3레벨은 9~12
     return (rand()% 4 +1) + (level-1)*4;
 }
 void showQuestion(int level, int num1, int num2){
