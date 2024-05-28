@@ -20,7 +20,7 @@ int main(void){
         } // if
     }// for
     if(level>3){
-        printf("비밀번호를 모두 맞췄습니다. 성공입니다\n\n");
+        printf("3단계까지 잘 오셨습니다. 성공입니다\n\n");
     }
 }
 int getRandomNumber(int level){
