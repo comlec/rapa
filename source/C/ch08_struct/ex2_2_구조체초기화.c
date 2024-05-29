@@ -5,10 +5,7 @@ struct student { // 구조체를 정의
     double grade; // 학점(student 구조체 멤버)
 };
 int main(void){
-    int i;
-    struct student s1;
-    i = 1;
-    s1.num = 101;
-    s1.grade = 4.43;
+    int i =1 ;
+    struct student s1 = {101, 4.43};
     printf("학번 = %d, 학점 = %.2lf\n", s1.num, s1.grade);
 }
