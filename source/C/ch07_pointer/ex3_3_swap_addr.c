@@ -8,9 +8,9 @@ int main(void){
 }
 // 함수 구현(=함수 정의)
 void swap_addr(int* a, int* b){
-    printf("함수안 a주소=%p, a값=%d, b주소=%p, b=%d\n", &a, a, &b, b);
-    int temp = a;
-    a = b;
-    b = temp;
-    printf("함수안 a주소=%p, a값=%d, b주소=%p, b=%d\n", &a, a, &b, b);
+    printf("함수안 a 주소=%p, 값=%d, b주소=%p, 값=%d\n", a, *a, b, *b);
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+    printf("함수안 a 주소=%p, 값=%d, b주소=%p, 값=%d\n", a, *a, b, *b);
 }
