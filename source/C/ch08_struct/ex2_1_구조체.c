@@ -4,6 +4,7 @@ struct student { // 구조체를 정의
     int num;      // 학번(student 구조체 멤버)
     double grade; // 학점(student 구조체 멤버)
 };
+void stPrint(struct student st); // 함수 선언
 int main(void){
     int i;
     struct student s1;

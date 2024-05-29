@@ -11,6 +11,6 @@ int main(void){
                                 {103, "신길동", 4.01}};
     printf("학번\t이름\t학점\n");
     for(int idx = 0; idx<3 ; idx++){
-        printf("%d\t%s\t.2lf\n", sArr[idx].id, sArr[idx].name, sArr[idx].grade);
+        printf("%d\t%s\t%.2lf\n", sArr[idx].id, sArr[idx].name, sArr[idx].grade);
     }
 }
