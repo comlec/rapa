@@ -28,14 +28,12 @@ int* make_lotto(){
                 duplication_check = 0;
                 break;
             }
-        }
+        }//for - 중복확인
         if(duplication_check){
             lotto[i] = temp;
             i++;
-        }else{
-            continue;
-        }
-    }
+        }//if
+    }//while
     return lotto;
 }
 void sort(int* lotto){
