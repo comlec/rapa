@@ -3,7 +3,7 @@ struct vision{
     double left; 
     double right;
 };
-typeof struct vision Vision; // struct vision을 Vision으로 타입으로
+typedef struct vision Vision; // struct vision을 Vision으로 타입으로
 Vision exchange(Vision robot); // 함수
 int main(void){
     Vision robot;
