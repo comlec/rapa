@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 // 배열안의 값을 오름차순 정렬하는 함수를 구현하시오
 void sort(int* arr); // 6개 방 배열의 값을 오름차순 정렬
 int* make_lotto(); // 중복되지 않은 로또 번호 6개 배열방 return
 int main(void){
     int* lotto = make_lotto();
-    sort(lotto, 6);
+    sort(lotto);
     printf("생성된 로또번호 : ");
     for(int idx=0 ; idx<6 ; idx++){
         printf("%d\t", lotto[idx]);
