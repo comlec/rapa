@@ -1,3 +1,3 @@
 git add .
-git commit -m "python_데이터구조"
+git commit -m "python_4~8장"
 git push -u origin main
