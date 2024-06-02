@@ -1,3 +1,3 @@
 git add .
-git commit -m "python_4장.함수"
+git commit -m "python_8~11장"
 git push -u origin main
