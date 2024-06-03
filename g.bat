@@ -1,3 +1,3 @@
 git add .
-git commit -m "python_8~11¿Â"
+git commit -m "python_Pandas"
 git push -u origin main
